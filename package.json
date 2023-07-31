@@ -1,0 +1,30 @@
+{
+  "name": "esbuild-react",
+  "version": "1.0.0",
+  "description": "React.js app utilizing esbuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild app.jsx --bundle --outfile=out.js",
+    "esbuild-version": "./node_modules/.bin/esbuild --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsanx64/esbuild-react.git"
+  },
+  "keywords": [
+    "react.js",
+    "esbuild"
+  ],
+  "author": "Ehsan Mohammadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehsanx64/esbuild-react/issues"
+  },
+  "homepage": "https://github.com/ehsanx64/esbuild-react#readme",
+  "dependencies": {
+    "esbuild": "0.18.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
