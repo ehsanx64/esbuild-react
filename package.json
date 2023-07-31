@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild app.jsx --bundle --outfile=out.js",
+    "build": "esbuild src/app.jsx --bundle --outfile=dist/out.js",
+    "run": "node dist/out.js",
     "esbuild-version": "./node_modules/.bin/esbuild --version"
   },
   "repository": {
